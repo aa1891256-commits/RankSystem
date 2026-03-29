@@ -1,0 +1,14 @@
+rank:
+  prefix: '&f[Rank] '
+  default:
+    permissions:
+      - rank.default
+    weight: 0
+  premium:
+    permissions:
+      - rank.premium
+    weight: 1
+  admin:
+    permissions:
+      - rank.admin
+    weight: 10
